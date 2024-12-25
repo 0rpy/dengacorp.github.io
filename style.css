@@ -1,0 +1,93 @@
+*{
+        background: ;
+}
+.a{
+        font-family: "Arial Black", Gadget, sans-serif;
+        font-size: 140px;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+        color: #48ff00;
+        font-weight: normal;
+        text-decoration: none;
+        font-style: normal;
+        font-variant: normal;
+        text-transform: none;
+        position: fixed;
+        left: 26%;
+        top: 18%;
+}
+.b{
+        font-family: "Arial Black", Gadget, sans-serif;
+        font-size: 120px;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+        color: #48ff00;
+        font-weight: normal;
+        text-decoration: none;
+        font-style: normal;
+        font-variant: normal;
+        text-transform: none;
+        position: fixed;
+        left: 52.3%;
+        bottom: 32%;
+}
+.link1{
+        font-family: "Arial Black", Gadget, sans-serif;
+        text-decoration: none;
+        position: fixed;
+        right: 4%;
+        top: 2.8%;
+        color: #3f0091;
+        font-size: 24px;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+}
+.bord1{
+        
+}
+.cont1{
+        position: fixed;
+        width: 15px;
+        margin: 15px;
+}
+.img1{
+        position: fixed;
+        top: 32.5px;
+        left: 32.5px;
+        background:;
+        width: 45px;
+        height: 45px;
+        animation-name: img1spin;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+
+}
+@keyframes img1spin{
+        0%{
+                transform: rotate(0deg);}
+        25%{
+                transform: rotate(90deg);}
+        50%{
+                transform: rotate(180deg);}
+        75%{
+                transform: rotate(270deg);}
+        100%{
+                transform: rotate(360deg);}
+}
+.video-background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Ensures the video covers the entire area */
+        z-index: -1; /* Keeps it behind other content */
+}
+.content {
+        position: relative;
+        z-index: 1; /* Places content above the video */
+        color: white;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        padding: 50px;
+}
