@@ -12,8 +12,13 @@ body {
     font-variant: normal;
     text-transform: uppercase;
     position: absolute;
-    top: 2%;
+    top: 20%;
     left: 60%;
+}
+.home:hover{
+    font-size: 40px;
+    top: 10%;
+    left: 59.25%;
 }
 .update{
     font-family: "Arial Black", Gadget, sans-serif;
@@ -25,8 +30,13 @@ body {
     font-variant: normal;
     text-transform: uppercase;
     position: absolute;
-    top: 2%;
+    top: 20%;
     left: 68.5%;
+}
+.update:hover{
+    font-size: 40px;
+    top: 10%;
+    left: 67.25%;
 }
 .info{
     font-family: "Arial Black", Gadget, sans-serif;
@@ -38,8 +48,13 @@ body {
     font-variant: normal;
     text-transform: uppercase;
     position: absolute;
-    top: 2%;
+    top: 20%;
     left: 79%;
+}
+.info:hover{
+    font-size: 40px;
+    top: 10%;
+    left: 78.25%;
 }
 .download{
     font-family: "Arial Black", Gadget, sans-serif;
@@ -51,16 +66,26 @@ body {
     font-variant: normal;
     text-transform: uppercase;
     position: absolute;
-    top: 2%;
+    top: 20%;
     left: 86%;
+}
+.download:hover{
+    font-size: 40px;
+    top: 10%;
+    left: 84.25%;
+}
+.small{
+    font-size: 14px;
+    top: 25%;
 }
 .logo{
     position: absolute;
     width: 60px;
     height: 38px;
-    top: 2.4%;
+    top: 24%;
     left: 2%;
 }
+
 .section {
     height: 100vh; 
     color: white;
@@ -77,5 +102,5 @@ body {
     width: 99.8%;
     height: 80px;
     top: -20px;
-    position: static;
+    position: sticky;
 }
