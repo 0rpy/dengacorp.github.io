@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.home{
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #000000;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    position: absolute;
+    top: 2%;
+    left: 60%;
+}
+.update{
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #000000;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    position: absolute;
+    top: 2%;
+    left: 68.5%;
+}
+.info{
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #000000;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    position: absolute;
+    top: 2%;
+    left: 79%;
+}
+.download{
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #000000;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    position: absolute;
+    top: 2%;
+    left: 86%;
+}
+.logo{
+    position: absolute;
+    width: 60px;
+    height: 38px;
+    top: 2.4%;
+    left: 2%;
+}
+.section {
+    height: 100vh; 
+    color: white;
+    background: linear-gradient(180deg, #31185b 0%, #3f0f8d 50%, #4912a4 100%)
+}
+.section1 {
+    height: 100vh; 
+    color: white;
+    background: #4912a4; 
+}
+.a{
+    border: 2px solid black;
+    background: #4912a4;
+    width: 99.8%;
+    height: 80px;
+    top: -20px;
+    position: static;
+}
